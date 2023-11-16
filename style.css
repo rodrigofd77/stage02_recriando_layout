@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2c2b3d;
+  min-height: 100vh;
+}
+
+#page {
+  width: 1092px;
+  height: 626px;
+  margin: 71px auto 23px;
+}
+
+header {
+  /* o header tem 2 elementos (logo e nav) */
+  width: 1092px;
+  height: 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header-div-logo {
+  width: 163px;
+  height: 23px;
+}
+
+#header-div-nav {
+  width: 306px;
+  height: 30px;
+}
+
+nav ul {
+  font-family: 'JetBrains Mono', monospace;
+
+  width: 306px;
+  height: 30px;
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.8;
+}
+
+nav ul a:hover {
+  opacity: 1;
+}
+
+main {
+  width: 1092px;
+  height: 283px;
+  margin: 101px 0 157px;
+
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+#main-div-img {
+  width: 400px;
+  height: 283px;
+}
+
+#main-div-section {
+  width: 604px;
+  height: 283px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+#main-section-div-h2 {
+  height: 40px;
+  width: 604px;
+  margin-bottom: 59px;
+}
+
+#main-section-div-p {
+  width: 604px;
+  height: 168px;
+  color: #C2C2C2;
+}
+
+h2 {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+h2 span {
+  color: #00BFA6;
+}
+
+p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #C2C2C2;
+}
+
+hr {
+  width: 568px;
+  height: 0;
+  color: #00BFA6;
+  margin: auto;
+}
+
+footer p {
+  font-family: 'JetBrains Mono', monospace;
+  color: #FFF;
+  text-align: center;
+  margin-top: 27px;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #FFF;
+  opacity: 0.8;
+}
+
+footer p a:hover {
+  opacity: 1;
+}
+
+#padlock {
+  width: 51px;
+  height: 62px;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
